@@ -1,0 +1,350 @@
+.Perfil{
+		font-family: 'Ubuntu', sans-serif;
+		padding: 50px ;
+		margin-bottom: 100px;
+	}
+	.Perfil_img{
+		width: 90%;
+    	background-color: #e45a38;
+    	margin-bottom: 20px;
+    	margin-left: 20px;
+	}
+	.Perficol{
+		margin-top: 30px;
+	}
+	.Perfil_img-icon{
+		width: 250px;
+		height: 250px;
+		padding: 20px;
+	}
+	.Perfil-data-personal{
+		font-size: 16px;
+		color:#000000;
+		font-weight: bold;
+		line-height: 28px;
+		border-bottom: solid 1px #C1C1C1;
+		margin:10px 0px;
+	}
+	.Perfil_input-div{
+		margin: 14px;
+		position: relative;
+	    float: left;
+	}
+	.Perfil_input{
+		background: #f5f5f5 none repeat scroll 0 0;
+	    border: 0 none;
+	    color: #666666;
+	    font-size: 16px;
+	    height: 62px;
+	    padding: 0 47px;
+	    border-radius: 15px;
+	}
+	.ColDosUno{
+		display: flex;
+	    float: left;
+	    margin: 0px 80px;
+	}
+/*Input Subir imagen Perfil*/
+ .fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+.fileContainer [type=submit],
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+@media (min-width: 1365px) and (max-width: 1500px){
+	.Perfil{
+		font-family: 'Ubuntu', sans-serif;
+		padding: 50px;
+		margin-bottom: 150px;
+
+	}
+	.Perfil_img{
+		width: 250px;
+		height: 250px;
+		background-color: #e45a38;
+	}
+	.Perficol{
+		margin: 55px 0px;
+	}
+	.Perfil_img-icon{
+		width: 100%;
+		padding: 20px;
+	}
+	.Perfil-data-personal{
+		font-size: 16px;
+		color:#000000;
+		font-weight: bold;
+		line-height: 28px;
+		border-bottom: solid 1px #C1C1C1;
+		margin:10px 0px;
+	}
+	.Perfil_input-div{
+		margin: 20px;
+		position: relative;
+	    float: left;
+	}
+	.Perfil_input{
+		background: #f5f5f5 none repeat scroll 0 0;
+	    border: 0 none;
+	    color: #666666;
+	    font-size: 16px;
+	    height: 62px;
+	    padding: 0 47px;
+	    border-radius: 15px;
+	}
+	.ColDosUno{
+		display: flex;
+	    float: left;
+	    margin: 0px 80px;
+	}
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+	.Perfil_img{
+		width: 280px;
+		height: 280px;
+	}
+	.Perficol{
+		margin: 55px 0px;
+	}
+	.Perfil_img-icon{
+		width: 100%;
+		padding: 20px;
+	}
+	.Perfil-data-personal{
+		font-size: 16px;
+		color:#000000;
+		font-weight: bold;
+		line-height: 28px;
+		border-bottom: solid 1px #C1C1C1;
+		margin:10px 0px;
+	}
+	.Perfil_input-div{
+		margin: 10px;
+	}
+	.Perfil_input{
+	    padding: 0 24px;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	..Perfil_img{
+		
+    	margin-bottom: 20px;
+    	margin-left: 200px;
+	}
+	.Perfil_img{
+		width: 260px;
+		height: 260px;
+		
+	}
+	.Perficol{
+		margin: 55px 0px;
+	}
+	.Perfil_img-icon{
+		width: 100%;
+		padding: 20px;
+	}
+	.Perfil-data-personal{
+		font-size: 16px;
+		color:#000000;
+		font-weight: bold;
+		line-height: 28px;
+		border-bottom: solid 1px #C1C1C1;
+		margin:10px 0px;
+	}
+	.Perfil_input-div{
+		margin: 20px;
+		position: relative;
+	    float: left;
+	}
+	.Perfil_input{
+		background: #f5f5f5 none repeat scroll 0 0;
+	    border: 0 none;
+	    color: #666666;
+	    font-size: 16px;
+	    height: 62px;
+	    padding: 0 47px;
+	    border-radius: 15px;
+	}
+	.ColDosUno{
+		display: flex;
+	    float: left;
+	    margin: 0px 80px;
+	}
+}
+@media (max-width: 767px) {
+	.Perfil{
+		font-family: 'Ubuntu', sans-serif;
+		padding: 50px;
+	}
+	.Perfil_img{
+		width: 350px;
+		height: 350px;
+		background-color: #e45a38;
+	}
+	.Perfil_img-icon{
+		width: 350px;
+		height: 350px;
+	}
+	.Perficol{
+		margin: 55px 0px;
+	}
+	.Perfil_img-icon{
+		width: 100%;
+		padding: 20px;
+	}
+	.Perfil-data-personal{
+		font-size: 16px;
+		color:#000000;
+		font-weight: bold;
+		line-height: 28px;
+		border-bottom: solid 1px #C1C1C1;
+		margin:10px 0px;
+	}
+	.Perfil_input-div{
+		margin: 20px;
+		position: relative;
+	    float: left;
+	}
+	.Perfil_input{
+		background: #f5f5f5 none repeat scroll 0 0;
+	    border: 0 none;
+	    color: #666666;
+	    font-size: 16px;
+	    height: 62px;
+	    padding: 0 47px;
+	    border-radius: 15px;
+	}
+	.ColDosUno{
+		display: flex;
+	    float: left;
+	    margin: 0px 80px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.Perfil{
+		font-family: 'Ubuntu', sans-serif;
+		padding: 50px;
+	}
+	.Perfil_img{
+		width: 350px;
+		height: 350px;
+		background-color: #e45a38;
+	}
+	.Perfil_img-icon{
+		width: 350px;
+		height: 350px;
+	}
+	.Perficol{
+		margin: 55px 0px;
+	}
+	.Perfil_img-icon{
+		    width: 200px;
+    padding: 20px 0px;
+    height: 200px;
+	}
+	.Perfil_img {
+		width: 200px;
+    height: 200px;
+    margin-left: 33%;
+    margin-bottom: 20px;
+	}
+	.Perfil-data-personal{
+		font-size: 16px;
+		color:#000000;
+		font-weight: bold;
+		line-height: 28px;
+		border-bottom: solid 1px #C1C1C1;
+		margin:10px 0px;
+	}
+	.Perfil_input-div{
+		margin: 20px;
+		position: relative;
+	    float: left;
+	}
+	.Perfil_input{
+		background: #f5f5f5 none repeat scroll 0 0;
+	    border: 0 none;
+	    color: #666666;
+	    font-size: 16px;
+	    height: 62px;
+	    padding: 0 47px;
+	    border-radius: 15px;
+	}
+	.ColDosUno{
+		display: flex;
+	    float: left;
+	    margin: 0px 80px;
+	}
+}
+@media (max-width: 455px) {
+	.Perfil{
+		font-family: 'Ubuntu', sans-serif;
+		padding: 50px;
+		margin-bottom: 50px;
+	}
+	.Perfil_img{
+	width: 90%;
+    height: 90%;
+    /* margin: 0 auto; */
+    margin-left: 5%;
+    margin-bottom: 20px;
+
+	}
+	.Perficol{
+		margin-top: 5px;
+		margin-bottom: 50px;
+	}
+	.Perfil_img-icon{
+		width: 200px;
+    	padding: 26px 0px;
+    	height: 200px;
+	}
+	.Perfil-data-personal{
+		font-size: 16px;
+		color:#000000;
+		font-weight: bold;
+		line-height: 28px;
+		border-bottom: solid 1px #C1C1C1;
+		margin:10px 0px;
+	}
+	.Perfil_input-div{
+		margin: 10px 0px;
+		position: relative;
+	    float: left;
+	}
+	.Perfil_input{
+		background: #f5f5f5 none repeat scroll 0 0;
+	    border: 0 none;
+	    color: #666666;
+	    font-size: 16px;
+	    height: 35px;
+	    padding: 0px 17px;
+	    border-radius: 15px;
+	}
+	.Perfil_input-divII{
+    	width: 240px !important;
+    	margin: 10px 20px;
+	}
+}
+@media (max-width: 1500px) and (min-width: 1404px){	
+	.Perfil_img{
+		
+    	margin-bottom: 20px;
+    	margin-left: 45px;
+	}
+}

@@ -1,0 +1,339 @@
+.menuMovil{
+  padding: 10px;
+  color: #fa543e;
+}
+.img-menuMovil{
+  width: 60px;
+  height: 60px;
+}
+.color-amarillo{
+  background: #ffc855;
+   height: auto;
+  text-align: center;
+  /*padding: 10px 40px 10px 20px;*/
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.color-blanco{
+    background: #ffffff;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.c-menu-btn,
+input[id='c-menu-btn'] {
+    /*position: relative;*/
+    right: -78px;
+    top: -20px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.c-menu-btn__indicator {
+  height: 25px;
+  width: 25px;
+  top: 20px;
+}
+.c-me-btn__indicador--1 .c-me-btn__indicador--2 .c-me-btn__indicador--3{
+  margin-top: 5px;
+} 
+
+.c-menu-btn__indicator div[class^="c-menu-btn__indicator--"] {
+  position: relative;
+  background-color: #fb9013;
+  height: 0.36364vh;
+  border-radius:10px;
+  margin-top: 0.36364vh;
+  padding: 3px 20px;
+}
+
+.c-menu-btn__indicator div[class^="c-menu-btn__indicator--"]:first-child {
+  margin-top: 0.09091vh
+}
+
+.c-menu-btn__indicator--2 {
+  transition: opacity 0s 0.175s
+}
+
+input[id='c-menu-btn']:checked ~ .c-menu-btn .c-menu-btn__indicator--1 {
+  top: 11px;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  -webkit-animation: linear btn-anim--up 0.35s;
+  animation: linear btn-anim--up 0.35s
+}
+
+input[id='c-menu-btn']:checked ~ .c-menu-btn .c-menu-btn__indicator--2 {
+  opacity: 0
+}
+
+input[id='c-menu-btn']:checked ~ .c-menu-btn .c-menu-btn__indicator--3 {
+  bottom: 0.72727vh;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  -webkit-animation: linear btn-anim--down 0.35s;
+  animation: linear btn-anim--down 0.35s
+}
+
+input[id='c-menu-btn']:not(:checked) ~ .c-menu-btn .c-menu-btn__indicator--1 {
+  -webkit-animation: reverse linear btn-anim--up-b 0.35s;
+  animation: reverse linear btn-anim--up-b 0.35s
+}
+
+input[id='c-menu-btn']:not(:checked) ~ .c-menu-btn .c-menu-btn__indicator--2 {
+  opacity: 1
+}
+
+input[id='c-menu-btn']:not(:checked) ~ .c-menu-btn .c-menu-btn__indicator--3 {
+  -webkit-animation: reverse linear btn-anim--down-b 0.35s;
+  animation: reverse linear btn-anim--down-b 0.35s
+}
+
+@-webkit-keyframes btn-anim--up {
+  0% {
+    top: 0;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  50% {
+    top: 0.72727vh;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  100% {
+    top: 0.72727vh;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg)
+  }
+}
+
+@keyframes btn-anim--up {
+  0% {
+    top: 0;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  50% {
+    top: 0.72727vh;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  100% {
+    top: 0.72727vh;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg)
+  }
+}
+
+@-webkit-keyframes btn-anim--down {
+  0% {
+    bottom: 0;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  50% {
+    bottom: 0.72727vh;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  100% {
+    bottom: 0.72727vh;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg)
+  }
+}
+
+@keyframes btn-anim--down {
+  0% {
+    bottom: 0;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  50% {
+    bottom: 0.72727vh;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  100% {
+    bottom: 0.72727vh;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg)
+  }
+}
+
+@-webkit-keyframes btn-anim--up-b {
+  0% {
+    top: 0;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  50% {
+    top: 0.72727vh;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  100% {
+    top: 0.72727vh;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg)
+  }
+}
+
+@keyframes btn-anim--up-b {
+  0% {
+    top: 0;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  50% {
+    top: 0.72727vh;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  100% {
+    top: 0.72727vh;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg)
+  }
+}
+
+@-webkit-keyframes btn-anim--down-b {
+  0% {
+    bottom: 0;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  50% {
+    bottom: 0.72727vh;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  100% {
+    bottom: 0.72727vh;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg)
+  }
+}
+
+@keyframes btn-anim--down-b {
+  0% {
+    bottom: 0;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  50% {
+    bottom: 0.72727vh;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg)
+  }
+  100% {
+    bottom: 0.72727vh;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg)
+  }
+}
+
+.c-menu-slider {
+  /*position: fixed;*/
+  left: 100%;
+  height: 100%;
+  z-index: 999
+}
+
+.c-menu-slider__content {
+      position: absolute;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    top: 131px;
+    left: -120vh;
+
+}
+
+input[id='c-menu-btn'] {
+  opacity: 0
+}
+
+input[id='c-menu-btn']:checked ~ .c-menu-slider__content {
+     height: 420px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 110px;
+    left: 0;
+    overflow-y: hidden;
+    transition: 0.5s;
+    /*padding-top: 60px;*/
+}
+
+input[id='c-menu-btn']:checked ~ .c-menu-btn--is-active {
+  position: absolute;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+}
+
+input[id='c-menu-btn']:not(:checked) ~ .c-menu-slider__content {
+  transition: width 0s 0.7s;
+  -webkit-animation: menu-slide-out 0.7s;
+  animation: menu-slide-out 0.7s
+}
+
+@-webkit-keyframes menu-slide-in {
+  0% {
+    right: -41.8vh
+  }
+  64% {
+    right: 0
+  }
+  68% {
+    right: -0.38vh
+  }
+  100% {
+    right: -3.8vh
+  }
+}
+
+@keyframes menu-slide-in {
+  0% {
+    right: -41.8vh
+  }
+  64% {
+    right: 0
+  }
+  68% {
+    right: -0.38vh
+  }
+  100% {
+    right: -3.8vh
+  }
+}
+
+@-webkit-keyframes menu-slide-out {
+  0% {
+    right: -3.8vh
+  }
+  75% {
+    right: -41.8vh
+  }
+}
+
+@keyframes menu-slide-out {
+  0% {
+    right: -3.8vh
+  }
+  75% {
+    right: -41.8vh
+  }
+}
+
+.c-menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
